@@ -12,5 +12,8 @@
      @name
    end
 
-
+p 
  end
+
+fido = Dog.new("fido")
+p fido.name

@@ -46,50 +46,50 @@ describe 'Dog' do
     end
   end
 end
-#
-# describe 'Person' do
-#   it 'is defined within lib/person.rb' do
-#     expect(defined?(Person)).to be_truthy
-#     expect(Person).to be_a(Class)
-#   end
-#
-#   context 'with names' do
-#     describe '#name=' do
-#       it 'writes the name of the person to an instance variable @name' do
-#         beyonce = Person.new
-#         beyonce.name = "Beyonce"
-#
-#         expect(beyonce.instance_variable_get(:@name)).to eq("Beyonce")
-#       end
-#     end
-#
-#     describe '#name' do
-#       it 'reads the name of the person from an instance variable @name' do
-#         beyonce = Person.new
-#         beyonce.instance_variable_set(:@name, "Beyonce")
-#
-#         expect(beyonce.name).to eq("Beyonce")
-#       end
-#     end
-#   end
-#
-#   context 'with jobs' do
-#     describe '#job=' do
-#       it 'writes the job of the person to an instance variable @job' do
-#         beyonce = Person.new
-#         beyonce.job = "Singer"
-#
-#         expect(beyonce.instance_variable_get(:@job)).to eq("Singer")
-#       end
-#     end
-#
-#     describe '#job' do
-#       it 'reads the job of the person from an instance variable @job' do
-#         beyonce = Person.new
-#         beyonce.instance_variable_set(:@job, "Singer")
-#
-#         expect(beyonce.job).to eq("Singer")
-#       end
-#     end
-#   end
-# end
+
+describe 'Person' do
+  it 'is defined within lib/person.rb' do
+    expect(defined?(Person)).to be_truthy
+    expect(Person).to be_a(Class)
+  end
+
+  context 'with names' do
+    describe '#name=' do
+      it 'writes the name of the person to an instance variable @name' do
+        beyonce = Person.new
+        beyonce.name = "Beyonce"
+
+        expect(beyonce.instance_variable_get(:@name)).to eq("Beyonce")
+      end
+    end
+
+    describe '#name' do
+      it 'reads the name of the person from an instance variable @name' do
+        beyonce = Person.new
+        beyonce.instance_variable_set(:@name, "Beyonce")
+
+        expect(beyonce.name).to eq("Beyonce")
+      end
+    end
+  end
+
+  context 'with jobs' do
+    describe '#job=' do
+      it 'writes the job of the person to an instance variable @job' do
+        beyonce = Person.new
+        beyonce.job = "Singer"
+
+        expect(beyonce.instance_variable_get(:@job)).to eq("Singer")
+      end
+    end
+
+    describe '#job' do
+      it 'reads the job of the person from an instance variable @job' do
+        beyonce = Person.new
+        beyonce.instance_variable_set(:@job, "Singer")
+
+        expect(beyonce.job).to eq("Singer")
+      end
+    end
+  end
+end

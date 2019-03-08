@@ -17,7 +17,7 @@
    end
 
    def breed
-     @new_breed
+     @breed
    end
 
  end

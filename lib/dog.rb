@@ -12,7 +12,7 @@
      @name
    end
 
-p 
+p
  end
 
 fido = Dog.new("fido")

@@ -16,4 +16,4 @@ p
  end
 
 fido = Dog.new("fido")
-p fido.name
+fido.name
